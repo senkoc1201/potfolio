@@ -12,7 +12,7 @@ import {
 export const socialData = [
   {
     name: "Github",
-    link: "https://github.com/NakamuraKuhiniko",
+    link: "https://github.com/senkoc1201/potfolio",
     Icon: RiGithubLine,
   },
 ];
