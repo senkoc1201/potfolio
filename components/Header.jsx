@@ -17,7 +17,7 @@ const Header = () => {
               height={48}
               priority
             />
-            <span className="text-cyan-300 text-[32px] font-bold font-sora" >John.ST</span>
+            <span className="text-cyan-300 text-[32px] font-bold font-sora" >John.SM</span>
           </Link>
 
           {/* socials */}
