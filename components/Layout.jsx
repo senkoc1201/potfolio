@@ -22,13 +22,13 @@ const Layout = ({ children }) => {
         <title>John | Portfolio</title>
         <meta
           name="description"
-          content="Nakamura Kuhiniko is a Web designer and Full-stack web developer with 10+ years of experience."
+          content="John Smith is a Web designer and Full-stack web developer with 7+ years of experience."
         />
         <meta
           name="keywords"
           content="wordpress, powerCMS, wix, studio, bubble, webflow, react, next, nextjs, html, css, javascript, js, modern-ui, modern-ux, portfolio, framer-motion, 3d-website, particle-effect"
         />
-        <meta name="author" content="Nakamura Kuhiniko" />
+        <meta name="author" content="John Smith" />
         <meta name="theme-color" content="#f13024" />
       </Head>
 
