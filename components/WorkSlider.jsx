@@ -14,7 +14,7 @@ const workSlides = {
       images: [
         {
           title: "",
-          path: "/1.jpg",
+          path: "1.jpg",
           link: "https://vimeo.com/",
         },
         {
