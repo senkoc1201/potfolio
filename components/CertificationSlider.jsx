@@ -14,7 +14,7 @@ const certificationSlides = {
       images: [
         {
           title: "CSS",
-          path: "/qqq.jpg",
+          path: "/CSS.png",
           link: "https://www.hackerrank.com/certificates/4dda767daebc",
         },
         {
