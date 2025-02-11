@@ -13,22 +13,22 @@ const workSlides = {
     {
       images: [
         {
-          title: "",
+          title: "good",
           path: "/1.jpg",
           link: "https://vimeo.com/",
         },
         {
-          title: "",
+          title: "good",
           path: "/2.jpg",
           link: "https://buffer.com/",
         },
         {
-          title: "",
+          title: "good",
           path: "/3.jpg",
           link: "https://www.grammarly.com/",
         },
         {
-          title: "",
+          title: "good",
           path: "/5.jpg",
           link: "https://www.intercom.com/",
         },
@@ -38,17 +38,17 @@ const workSlides = {
       images: [
 
         {
-          title: "",
+          title: "good",
           path: "/6.jpg",
           link: "https://www.cloudflare.com/",
         },
         {
-          title: "",
+          title: "good",
           path: "/7.jpg",
           link: "https://asana.com/",
         },
         {
-          title: "",
+          title: "good",
           path: "/8.jpg",
           link: "https://www.dropbox.com/",
         },
@@ -77,12 +77,12 @@ const WorkSlider = () => {
               >
                 <div className="flex items-center justify-center relative overflow-hidden group">
                   {/* image */}
+                  <div className="w-[400px] h-[200px]">
                   <Image
                     src={image.path}
                     alt={image.title}
-                    width={500}
-                    height={300}
                   />
+                  </div>
 
                   {/* overlay gradient */}
                   <div
