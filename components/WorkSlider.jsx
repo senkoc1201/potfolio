@@ -14,22 +14,22 @@ const workSlides = {
       images: [
         {
           title: "女性らしいデザイン",
-          path: "/thumb1.jpg",
+          path: "/a.jpg",
           link: "https://bans-bd.jp/",
         },
         {
           title: "大手らしい新しいデザイン",
-          path: "/thumb2.jpg",
+          path: "/b.jpg",
           link: "https://recruit.sas-com.com/",
         },
         {
           title: "力強く男らしいイメージ",
-          path: "/thumb3.jpg",
+          path: "/c.jpg",
           link: "https://www.sanyu-butsuryu.com/",
         },
         {
           title: "イラスト多様しグラフィカルなイメージ",
-          path: "/thumb4.jpg",
+          path: "/d.jpg",
           link: "https://www.midorigaoka-hoiku.com/",
         },
       ],
@@ -38,17 +38,17 @@ const workSlides = {
       images: [
         {
           title: "躍動感あるイメージ",
-          path: "/thumb5.jpg",
+          path: "/e.jpg",
           link: "https://www.sports-science.co.jp/arrowz-gym/",
         },
         {
           title: "ポップな地域カフェのイメージ",
-          path: "/thumb6.jpg",
+          path: "/f.jpg",
           link: "https://caferob.com/",
         },
         {
           title: "信頼感のある地域感",
-          path: "/thumb7.jpg",
+          path: "/g.jpg",
           link: "https://www.takedc.com/",
         },
         {
