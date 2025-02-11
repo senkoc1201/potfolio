@@ -13,44 +13,48 @@ const workSlides = {
     {
       images: [
         {
-          title: "good",
-          path: "/1.jpg",
-          link: "https://vimeo.com/",
+          title: "女性らしいデザイン",
+          path: "/thumb1.jpg",
+          link: "https://bans-bd.jp/",
         },
         {
-          title: "good",
-          path: "/2.jpg",
-          link: "https://buffer.com/",
+          title: "大手らしい新しいデザイン",
+          path: "/thumb2.jpg",
+          link: "https://recruit.sas-com.com/",
         },
         {
-          title: "good",
-          path: "/3.jpg",
-          link: "https://www.grammarly.com/",
+          title: "力強く男らしいイメージ",
+          path: "/thumb3.jpg",
+          link: "https://www.sanyu-butsuryu.com/",
         },
         {
-          title: "good",
-          path: "/5.jpg",
-          link: "https://www.intercom.com/",
+          title: "イラスト多様しグラフィカルなイメージ",
+          path: "/thumb4.jpg",
+          link: "https://www.midorigaoka-hoiku.com/",
         },
       ],
     },
     {
       images: [
-
         {
-          title: "good",
-          path: "/6.jpg",
-          link: "https://www.cloudflare.com/",
+          title: "躍動感あるイメージ",
+          path: "/thumb5.jpg",
+          link: "https://www.sports-science.co.jp/arrowz-gym/",
         },
         {
-          title: "good",
-          path: "/7.jpg",
-          link: "https://asana.com/",
+          title: "ポップな地域カフェのイメージ",
+          path: "/thumb6.jpg",
+          link: "https://caferob.com/",
         },
         {
-          title: "good",
-          path: "/8.jpg",
-          link: "https://www.dropbox.com/",
+          title: "信頼感のある地域感",
+          path: "/thumb7.jpg",
+          link: "https://www.takedc.com/",
+        },
+        {
+          title: "堅さ、信頼さ",
+          path: "/thumb8.jpg",
+          link: "https://www.marutoku-tk.co.jp/",
         },
       ],
     },
@@ -77,12 +81,12 @@ const WorkSlider = () => {
               >
                 <div className="flex items-center justify-center relative overflow-hidden group">
                   {/* image */}
-                  <div className="w-[400px] h-[200px]">
                   <Image
                     src={image.path}
                     alt={image.title}
+                    width={500}
+                    height={300}
                   />
-                  </div>
 
                   {/* overlay gradient */}
                   <div
