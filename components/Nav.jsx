@@ -39,11 +39,11 @@ export const navData = [
     path: "/work", 
     Icon: HiViewColumns 
   },
-  {
-    name: "Testimonials",
-    path: "/testimonials",
-    Icon: HiChatBubbleBottomCenterText,
-  }
+  // {
+  //   name: "Testimonials",
+  //   path: "/testimonials",
+  //   Icon: HiChatBubbleBottomCenterText,
+  // }
 ];
 
 const Nav = () => {
