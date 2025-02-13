@@ -19,11 +19,11 @@ export const navData = [
     path: "/", 
     Icon: HiHome 
   },
-  { 
-    name: "Certification", 
-    path: "/certification", 
-    Icon:  BiSolidCertification
-  },
+  // { 
+  //   name: "Certification", 
+  //   path: "/certification", 
+  //   Icon:  BiSolidCertification
+  // },
   { 
     name: "Introduction", 
     path: "/about", 

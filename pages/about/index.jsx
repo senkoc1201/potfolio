@@ -101,11 +101,11 @@ export const aboutData = [
     info: [
       {
         title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        stage: "2019 - 2021",
       },
       {
         title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        stage: "2022 - 2024",
       },
     ],
   },
@@ -113,36 +113,32 @@ export const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Blockchain Dev - Astana Innovations",
+        stage: "2019 - 2021",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
+        title: "Full-stack - ABC Agency",
+        stage: "2021 - 2024",
+      }
     ],
   },
-  {
-    title: "credentials",
-    info: [
-      {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
-      },
-      {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
-      },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
-      },
-    ],
-  },
+  // {
+  //   title: "credentials",
+  //   info: [
+  //     {
+  //       title: "Web Development - ABC University, LA, CA",
+  //       stage: "2011",
+  //     },
+  //     {
+  //       title: "Computer Science Diploma - AV Technical Institute",
+  //       stage: "2009",
+  //     },
+  //     {
+  //       title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
+  //       stage: "2006",
+  //     },
+  //   ],
+  // },
 ];
 
 const About = () => {
@@ -182,7 +178,7 @@ const About = () => {
             animate="show"
             className="max-w-[500px] pt-[50px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I started freelancing as a designer. After working as
+            6 years ago, I started freelancing as a designer. After working as
             a designer for three years, I combined coding and design. Since
             then, I've worked remotely for agencies, consulted with startups,
             and collaborated on business and consumer digital products.
@@ -199,7 +195,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={9} duration={5} />
+                  <CountUp start={0} end={6} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of experience
@@ -219,7 +215,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={157} duration={5} />
+                  <CountUp start={0} end={55} duration={5} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Number of completed projects
