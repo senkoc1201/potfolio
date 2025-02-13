@@ -13,23 +13,23 @@ const workSlides = {
     {
       images: [
         {
-          title: "女性らしいデザイン",
-          path: "/thumb1.jpg",
+          title: "Sites",
+          path: "/a.jpg",
           link: "https://bans-bd.jp/",
         },
         {
-          title: "大手らしい新しいデザイン",
-          path: "/thumb2.jpg",
+          title: "Sites",
+          path: "/b.jpg",
           link: "https://recruit.sas-com.com/",
         },
         {
-          title: "力強く男らしいイメージ",
-          path: "/thumb3.jpg",
+          title: "Sites",
+          path: "/c.jpg",
           link: "https://www.sanyu-butsuryu.com/",
         },
         {
-          title: "イラスト多様しグラフィカルなイメージ",
-          path: "/thumb4.jpg",
+          title: "Sites",
+          path: "/d.jpg",
           link: "https://www.midorigaoka-hoiku.com/",
         },
       ],
@@ -37,25 +37,20 @@ const workSlides = {
     {
       images: [
         {
-          title: "躍動感あるイメージ",
-          path: "/thumb5.jpg",
+          title: "Sites",
+          path: "/e.jpg",
           link: "https://www.sports-science.co.jp/arrowz-gym/",
         },
         {
-          title: "ポップな地域カフェのイメージ",
-          path: "/thumb6.jpg",
+          title: "Sites",
+          path: "/f.jpg",
           link: "https://caferob.com/",
         },
         {
-          title: "信頼感のある地域感",
-          path: "/thumb7.jpg",
+          title: "Sites",
+          path: "/g.jpg",
           link: "https://www.takedc.com/",
-        },
-        {
-          title: "堅さ、信頼さ",
-          path: "/thumb8.jpg",
-          link: "https://www.marutoku-tk.co.jp/",
-        },
+        }
       ],
     },
   ],
@@ -90,7 +85,7 @@ const WorkSlider = () => {
 
                   {/* overlay gradient */}
                   <div
-                    className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"
+                    className="absolute inset-0 bg-gradient-to-l from-transparent  opacity-0 group-hover:opacity-80 transition-all duration-700"
                     aria-hidden
                   />
 
