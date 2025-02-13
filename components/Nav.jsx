@@ -77,7 +77,6 @@ const Nav = () => {
                 />
               </div>
             </div>
-
             {/* icon */}
             <div>
               <link.Icon aria-hidden />
