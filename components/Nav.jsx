@@ -19,11 +19,11 @@ export const navData = [
     path: "/", 
     Icon: HiHome 
   },
-  { 
-    name: "Certification", 
-    path: "/certification", 
-    Icon:  BiSolidCertification
-  },
+  // { 
+  //   name: "Certification", 
+  //   path: "/certification", 
+  //   Icon:  BiSolidCertification
+  // },
   { 
     name: "Introduction", 
     path: "/about", 
@@ -39,11 +39,11 @@ export const navData = [
     path: "/work", 
     Icon: HiViewColumns 
   },
-  {
-    name: "Testimonials",
-    path: "/testimonials",
-    Icon: HiChatBubbleBottomCenterText,
-  }
+  // {
+  //   name: "Testimonials",
+  //   path: "/testimonials",
+  //   Icon: HiChatBubbleBottomCenterText,
+  // }
 ];
 
 const Nav = () => {
@@ -77,7 +77,6 @@ const Nav = () => {
                 />
               </div>
             </div>
-
             {/* icon */}
             <div>
               <link.Icon aria-hidden />
