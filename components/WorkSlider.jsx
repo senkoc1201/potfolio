@@ -15,22 +15,22 @@ const workSlides = {
         {
           title: "Sites",
           path: "/a.jpg",
-          link: "https://bans-bd.jp/",
+          link: "https://vimeo.com/",
         },
         {
           title: "Sites",
           path: "/b.jpg",
-          link: "https://recruit.sas-com.com/",
+          link: "https://buffer.com/",
         },
         {
           title: "Sites",
           path: "/c.jpg",
-          link: "https://www.sanyu-butsuryu.com/",
+          link: "https://www.grammarly.com/",
         },
         {
           title: "Sites",
           path: "/d.jpg",
-          link: "https://www.midorigaoka-hoiku.com/",
+          link: "https://www.intercom.com/",
         },
       ],
     },
@@ -39,17 +39,17 @@ const workSlides = {
         {
           title: "Sites",
           path: "/e.jpg",
-          link: "https://www.sports-science.co.jp/arrowz-gym/",
+          link: "https://www.cloudflare.com/",
         },
         {
           title: "Sites",
           path: "/f.jpg",
-          link: "https://caferob.com/",
+          link: "https://asana.com/",
         },
         {
           title: "Sites",
           path: "/g.jpg",
-          link: "https://www.takedc.com/",
+          link: "https://www.dropbox.com/",
         }
       ],
     },
